@@ -35,7 +35,6 @@ jobs:
 
       - name: Run Integration Tests
         run: |
-          # Якщо немає docker-compose, цей крок просто пройде далі
           docker-compose up -d || echo "No docker-compose file"
           sleep 5
           pytest tests/test_integration.py || echo "Integration tests skipped"
