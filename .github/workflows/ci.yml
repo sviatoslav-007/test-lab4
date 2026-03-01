@@ -1,4 +1,4 @@
-name: Lab4_Final_Fix
+name: Lab4
 
 on: [push, workflow_dispatch]
 
